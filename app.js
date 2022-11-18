@@ -7,7 +7,7 @@ console.log(navLinks);
 btn.addEventListener("click", function (e) {
   btn.style.display = "none";
   btnActive.style.display = "block";
-  navBar.style.top = "50%";
+  navBar.style.top = "30%";
 });
 
 //
