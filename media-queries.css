@@ -23,13 +23,35 @@
   }
   /* NAV STYLES */
   .nav-links {
-    display: none;
+    position: fixed;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-two);
+    flex-direction: column;
+    z-index: 2;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.8rem var(--dark-color);
+    width: 60%;
+    text-align: center;
+    gap: 1.6rem;
+    padding: 2rem 0;
+    font-size: 3rem !important;
+    transition: 0.5s ease-in-out;
   }
+
+  .nav-links a {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
   .nav-btn {
     display: none;
   }
-  .hamburger {
+
+  .toggler {
     display: block;
+    cursor: pointer;
   }
   /* HERO SECTION STYLES */
   menu {

@@ -42,6 +42,7 @@ nav {
   padding: 2rem 0;
   margin-bottom: 5rem;
 }
+
 .nav-content {
   width: 90%;
   margin: 0 auto;
@@ -49,6 +50,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-logo {
   display: flex;
   align-items: center;
@@ -89,12 +91,16 @@ nav a {
   font-weight: 500;
   padding: 0.8rem 1.2rem;
 }
+
+.toggler {
+  display: none;
+}
+
 .hamburger {
   width: 4.8rem;
-  display: none;
-  cursor: pointer;
 }
-.hamburger-active {
+
+.close {
   width: 3.5rem;
   display: none;
 }
